@@ -16,7 +16,7 @@ app.add_middleware(
 
 @app.get("/")
 def read_root():
-    return "Hello"
+    return JSONResponse("Hello")
 
 @app.get("/posts")
 def get_posts():
