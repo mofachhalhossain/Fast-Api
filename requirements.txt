@@ -1,5 +1,5 @@
 # /requirements.txt
 
-fastapi==0.88.0
+fastapi==0.109.1
 uvicorn==0.20.0
 # other required dependencies
